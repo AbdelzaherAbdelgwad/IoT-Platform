@@ -1,0 +1,88 @@
+/* Header */
+header{
+    background-color: #2D5289;
+    font-family: serif;
+    display:flex;
+    justify-content: space-between;
+    
+}
+header h3{
+   
+    margin-right: 3%;
+    margin-bottom: 0;
+    align-self: center;
+    
+   
+}
+header h1{
+   
+    margin-left: 1%;
+    padding: 10px;
+}
+
+/* LogIn */
+.logIn{
+  text-align: center;
+  margin: 50px 100px ;
+  background-color: #FFFFF5; 
+  padding: 75px; 
+
+}
+.logIn:hover{
+    background-color: #ffffc2; 
+    cursor: pointer;
+    transform: scale(1.02);
+  }
+ 
+.logIn h1{
+    font-size:50px;
+}
+
+/* slider */
+#carouselExampleCaptions{
+    margin: auto;
+    height: 45%;
+    width: 80%;
+
+}
+#carouselExampleCaptions:hover{
+    transform: scale(1.25);
+    
+
+}
+.aboutUs{
+    margin: 50px 10%;
+    text-align: justify;
+}
+
+
+/* Partners */
+.partners{
+    display:flex;
+}
+.partnerTable{
+    background-color: #FFFFF5;
+    margin: auto;
+    border: 1px solid black;
+}
+
+
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+footer td{
+    margin-right: 10%;
+    padding-right: 100px;
+}
+
+
+
+/* login.html */
+#home{
+    cursor: pointer;
+}
+
+
