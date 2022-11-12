@@ -1,3 +1,10 @@
+/* Tags */
+h1{
+    margin-top: 30px;
+}
+
+
+
 /* Header */
 header{
     background-color: #2D5289;
@@ -23,11 +30,29 @@ header h1{
 /* LogIn */
 .logIn{
   text-align: center;
-  margin: 50px 100px ;
+  margin: 50px 200px ;
+  height: 500px;
   background-color: #FFFFF5; 
-  padding: 75px; 
-
+  padding: 50px; 
+  display: flex;
 }
+@media(max-width:1140px){
+    .logIn{
+       display: block;
+       height: 100%;
+    }
+}
+.logIn div{
+    text-align: center;
+    padding-top: 10%;
+    padding-left: 10%;
+}
+.logIn img{
+  width: auto;
+}
+
+
+
 .logIn:hover{
     background-color: #ffffc2; 
     cursor: pointer;
@@ -47,6 +72,7 @@ header h1{
 }
 #carouselExampleCaptions:hover{
     transform: scale(1.25);
+    cursor: pointer;
     
 
 }
@@ -65,6 +91,12 @@ header h1{
     margin: auto;
     border: 1px solid black;
 }
+@media(max-width: 1164px){
+    .partners{
+        display: block;
+    }
+}
+
 
 
 
@@ -83,6 +115,32 @@ footer td{
 /* login.html */
 #home{
     cursor: pointer;
+}
+/* attacks */
+
+#Attacks{
+    width: 100%;
+    margin-bottom: 0px;
+}
+#line{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.atk h2{
+    text-align: center;
+    position: relative;
+    top: 100%;
+    margin: 10px;
+   
+    
+}
+
+.atk{
+    width: 350px;
+    height: 200px;
+    background-color: #FFFFF5;
+    margin: 30px;
 }
 
 
