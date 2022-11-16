@@ -36,10 +36,16 @@ header h1{
   padding: 50px; 
   display: flex;
 }
-@media(max-width:1140px){
+.logIn img{
+    width: auto;
+   }
+@media(max-width:1400px){
     .logIn{
        display: block;
        height: 100%;
+    }
+    .logIn img{
+        width:100% ;
     }
 }
 .logIn div{
@@ -47,9 +53,7 @@ header h1{
     padding-top: 10%;
     padding-left: 10%;
 }
-.logIn img{
-  width: auto;
-}
+
 
 
 

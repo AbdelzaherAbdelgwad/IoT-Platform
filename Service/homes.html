@@ -1,11 +1,106 @@
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="service.css">
     <title>SmartHome</title>
 </head>
 <body>
-    <h1>Smart Home Package</h1>
+    <fieldset style="border-width: 0px;">
+        <h1 style="text-align:center; margin: 100px;"><em>SmartHome</em> </h1>
+        <hr>
+        <div class="cams" style="text-align:center;">
+
+            <h3>
+                Camera system
+             </h3>
+             <p style="text-align: justify;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam congue eget nisl vel sodales. Nullam quis auctor metus. Nulla facilisi. Vestibulum tincidunt elit turpis, sollicitudin lacinia velit lacinia eget. Sed neque metus, elementum a scelerisque ut, sagittis eu lectus. Pellentesque ac viverra purus. Donec vestibulum bibendum lacus. Mauris rutrum ullamcorper erat sed condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam augue erat, luctus a justo nec, blandit facilisis erat. Donec et diam sed nisi aliquam varius. Integer nec viverra enim, et viverra libero. Fusce quis sapien at diam tempor blandit.
+             </p>
+             <img src="https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/201206/20120604171958-0_0.jpg?itok=AShT309-" alt="" srcset="">
+
+        </div>
+        <hr>
+        <div id="door" class="doors" style="text-align:center;">
+            <h3>
+                Doors
+             </h3>
+             <p style="text-align: justify;">
+                Praesent sed euismod nisl, at vulputate enim. Cras faucibus vitae lorem id maximus. Nam et orci nunc. Integer et elit sem. Nam facilisis fermentum viverra. Cras vehicula et ex non lacinia. Pellentesque vel felis turpis. Duis nisi ex, euismod et sem ut, sodales aliquam leo. Nam ut semper magna. Nulla sem nisi, laoreet quis finibus quis, vestibulum dignissim augue. Nullam lacinia mauris vitae blandit euismod. Ut euismod est in augue dignissim faucibus. Nullam ornare nulla at risus volutpat, sit amet feugiat leo ultricies. Sed ut aliquam purus.
+             </p>
+             <h4>Your door is: <em style="color:green ;">Locked</em></h4> 
+        </div>
+        <hr>
+        <!-- home assistant -->
+       <div class="assistant">
+        <h3>
+            Home Assistant, like:Alexa
+         </h3>
+         <p style="text-align: justify;">
+            Praesent sed euismod nisl, at vulputate enim. Cras faucibus vitae lorem id maximus. Nam et orci nunc. Integer et elit sem. Nam facilisis fermentum viverra. Cras vehicula et ex non lacinia. Pellentesque vel felis turpis. Duis nisi ex, euismod et sem ut, sodales aliquam leo. Nam ut semper magna. Nulla sem nisi, laoreet quis finibus quis, vestibulum dignissim augue. Nullam lacinia mauris vitae blandit euismod. Ut euismod est in augue dignissim faucibus. Nullam ornare nulla at risus volutpat, sit amet feugiat leo ultricies. Sed ut aliquam purus.
+         </p>
+    
+         <table >
+            
+            <tr >
+                <th>Commands</th>
+                <th>Answer</th>
+                <th>Date</th>
+            </tr>
+            <tr>
+                <td>Hi Alexa</td>
+                <td>Hi, what do you want?</td>
+                <td> 10/10/2020 - 10:30</td>
+            </tr>
+            <tr>
+                <td>What time is it</td>
+                <td>It's twelve thirty-four</td>
+                <td> 10/10/2020 - 11:34</td>
+            </tr>
+            <tr>
+                <td>How is the weather?</td>
+                <td>It's cloudy</td>
+                <td> 11/10/2020 - 14:22</td>
+            </tr>
+
+         </table>
+       </div>
+       <hr>
+       <!-- smart refrigerator -->
+       <div class="refrigerator">
+        <h3>Smart Refrigerator</h3>
+        <table >
+            <tr>
+                <td><h3>Is it <strong style="color: green;">safe</strong></h3>
+                </td>
+                <td> Port 1</td>
+                <td> Port 2</td>
+                <td> Port 3</td>
+               
+            </tr>
+            <tr>
+                <td><label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label></td>
+                  <td><label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label></td>
+                  <td><label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label></td>
+                  <td><label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label></td>
+            </tr>
+            
+        </table>
+        
+       </div>
+        
+    </fieldset>
+    <button id="homePage" onclick="backHome()"><h4>Back Home</h4><img style="width: 2% ; margin-block-start: -3px;" src="https://cdn-icons-png.flaticon.com/512/25/25694.png"></button>
+    <script src="services.js"></script>
 </body>
 </html>
