@@ -82,12 +82,11 @@ table{
   #homePage{
     display: flex;
     background-color: gray;
-    width: 100%;
-    text-align: center;
+    width: 25%;
     padding: 20px;
     margin: auto;
-    margin-top: 100px;
-    align-items: center;
+    margin-top: 25px;
+    align-items:flex-end;
     cursor: pointer;
   }
   #homePage h4{
@@ -98,4 +97,8 @@ table{
     margin-right: 10px;
     margin-inline-start: 50%;
     
+  }
+  .homeIcon{
+    margin: auto;
+    width: 30px;
   }
