@@ -93,8 +93,7 @@ table{
     margin: auto;
     text-align: center;
     /* width: 100%; */
-    margin-right: 3px;
-    margin-right: 10px;
+   
     margin-inline-start: 50%;
     
   }
@@ -102,3 +101,47 @@ table{
     margin: auto;
     width: 30px;
   }
+/* ----------------------------------------------- */
+/* hospital */
+.hTitle{
+font-size: 2rem;
+margin-top: 7.5%;
+}
+.hTitle h1{
+  letter-spacing: 20px;
+}
+.Hhead{
+  text-align: center;
+  height: 300px;
+
+  
+}
+.titleImg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  top: -200;
+  width: 100%;
+  z-index: -1;
+  opacity: 75%;
+}
+.imgClass{
+  position: absolute;
+  width: 100%;
+  height: 45%;
+  top: 0;
+  overflow: hidden;
+}
+.nurseSys{
+  margin: 3rem 5rem;
+  display: flex;
+}
+.nurseSys .nurText{
+  margin-top: 6rem;
+  padding: 0 8rem;
+  text-align: justify;
+  font-size: larger;
+}
+.nurseImg{
+  width: 40%;
+}
